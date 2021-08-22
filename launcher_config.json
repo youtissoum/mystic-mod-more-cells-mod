@@ -1,0 +1,9 @@
+{
+  "packNames": {
+    "win32": "Build-StandaloneWindows64.zip"
+  },
+  "executableNames": {
+    "win32": "StandaloneWindows64.exe"
+  },
+  "releaseSources": ["latest_commit", "latest_tag"]
+}
