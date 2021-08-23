@@ -21,6 +21,9 @@
     TRASH_CELL,
     IMMOVABLE_CELL,
 
+    // NUMPAD 1-9
+    NUKE_CELL,
+
     // C, X, V, DEL
     COPY_SELECTION,
     CUT_SELECTION,

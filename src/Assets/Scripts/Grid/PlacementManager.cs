@@ -111,6 +111,8 @@ public class PlacementManager : MonoBehaviour
             }
 
             AudioManager.i.PlaySound(GameAssets.i.place);
+            print(GridManager.tool);
+            print((CellType_e)GridManager.tool);
             Cell cell = GridManager.instance.SpawnCell((CellType_e)GridManager.tool, new Vector2(x,y), dir, false);
             GridManager.hasSaved = false;
         }
