@@ -950,7 +950,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Nuke mod
+  m_Text: More cells mod
 --- !u!222 &943636852
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1469,7 +1469,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 1223, y: 14}
+  m_AnchoredPosition: {x: 1358, y: 14}
   m_SizeDelta: {x: 293.21423, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1310368311
@@ -1719,7 +1719,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: v.nMod.0.0.1
+  m_text: moreCellsMod v0.0.1
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 50ed3f0cffb95ef4c8731e2938477c95, type: 2}
   m_sharedMaterial: {fileID: -5003027354601830041, guid: 50ed3f0cffb95ef4c8731e2938477c95,
@@ -1783,7 +1783,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -20.571777, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

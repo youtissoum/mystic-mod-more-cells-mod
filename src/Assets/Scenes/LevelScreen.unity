@@ -1295,7 +1295,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: nuke cell not supported in the save feature
+  m_Text: Save feature unsuported
 --- !u!222 &348597776
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1850,7 +1850,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5425da595dbabf14992bbfccb690ae84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tool: 9
+  tool: 10
   Animate: 0
   keybind: 0
 --- !u!114 &486249577
@@ -3195,7 +3195,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5425da595dbabf14992bbfccb690ae84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tool: 11
+  tool: 12
   Animate: 0
   keybind: 0
 --- !u!114 &836680738
@@ -6716,7 +6716,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5425da595dbabf14992bbfccb690ae84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tool: 10
+  tool: 11
   Animate: 0
   keybind: 48
 --- !u!114 &1555977690
@@ -8731,20 +8731,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Buttons:
-  - {fileID: 404558744}
   - {fileID: 1441991011}
+  - {fileID: 404558744}
   - {fileID: 726879526}
   - {fileID: 809996765}
   - {fileID: 1510357264}
   - {fileID: 1891788660}
-  - {fileID: 1891788660}
   - {fileID: 1821162739}
   - {fileID: 1297628425}
-  - {fileID: 2142706739}
   - {fileID: 1817291153}
   - {fileID: 1555977684}
   - {fileID: 486249575}
   - {fileID: 836680735}
+  - {fileID: 2142706739}
 --- !u!1 &2110744565
 GameObject:
   m_ObjectHideFlags: 0
@@ -8965,7 +8964,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5425da595dbabf14992bbfccb690ae84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tool: 12
+  tool: 9
   Animate: 1
   keybind: 257
 --- !u!114 &2142706743

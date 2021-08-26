@@ -23,6 +23,7 @@ public class Cell : MonoBehaviour
     public bool suppresed = false;
     public bool deleted = false;
     public bool generated = false;
+    public bool recentlyGenerated = false;
 
     public bool animate = true;
 

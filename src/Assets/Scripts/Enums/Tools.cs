@@ -8,8 +8,8 @@
     WALL,
     ENEMY,
     TRASH,
+    NUKE,
     DRAG,
     PLACEMENT,
-    SELECT,
-    NUKE
+    SELECT
 }
