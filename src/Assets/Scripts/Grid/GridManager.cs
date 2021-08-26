@@ -169,9 +169,9 @@ public class GridManager : MonoBehaviour
     }
 
     public Cell SpawnCell(CellType_e cellType, Vector2 position, Direction_e rotation, bool generated) {
-        print(this.cellPrefabs[(int)cellType]);
-        print(this.cellPrefabs[(int)cellType].GetComponent<Cell>());
-        /*Cell cell = Instantiate(this.cellPrefabs[(int)cellType]).GetComponent<Cell>();
+        /*print(this.cellPrefabs[(int)cellType]);
+        print(this.cellPrefabs[(int)cellType].GetComponent<Cell>());*/
+        Cell cell = Instantiate(this.cellPrefabs[(int)cellType]).GetComponent<Cell>();
         cell.transform.position = new Vector3(position.x, position.y, 0);
         cell.Setup(position, rotation, generated);
         cell.oldPosition = position;
@@ -179,9 +179,7 @@ public class GridManager : MonoBehaviour
         cell.transform.rotation = Quaternion.Euler(0, 0, -90 * (int)rotation);
         cell.name = CellFunctions.cellList.Count + "";
 
-        return cell;*/
-
-        return new Cell();
+        return cell;
     }
 
     public void InitGridSize()
