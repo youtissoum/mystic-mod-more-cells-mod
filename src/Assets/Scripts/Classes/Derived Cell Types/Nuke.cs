@@ -153,7 +153,7 @@ public class Nuke : TrackedCell
             newCellDown.oldPosition = this.position;
             newCellDown.generated = true;
 
-            print("Tick");
+            // print("Tick");
         }
     }
 }
