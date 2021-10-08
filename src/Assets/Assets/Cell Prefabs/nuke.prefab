@@ -105,6 +105,7 @@ MonoBehaviour:
   suppresed: 0
   deleted: 0
   generated: 0
+  recentlyGenerated: 0
   animate: 1
   queuedForPositionSorting: 0
   queuedForRotationSorting: 0
