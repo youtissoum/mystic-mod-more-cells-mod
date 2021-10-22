@@ -1,14 +1,20 @@
-# cell machine mystic mod more cells mod
+# Mystic Mod More Cells Mod
 
-this is not the official mystic mod it can be found at : https://github.com/Sequitur-Studios/Cell-Machine-Mystic-Mod
+This Is Not The Official Mystic Mod 
+It Can Be Found At : https://github.com/Sequitur-Studios/Cell-Machine-Mystic-Mod
 
-## cells
+## Cells
 
-### Nuke cell
-this cell is currently the only cell and is very buggy 
+### Nuke Cell
+This Cell Copies Itself On All Four Sides (Uptated Version Doesnt)
+
+### Flipper Cell
+Flips a Cell That Touches It 180
 
 Issues:
 
--Nuke cell destroys itself
+-Nuke Cell Destroys Itself
 
 -It does not fill the whole map
+
+-Flipper Cell Is Coded a Little Wrong
