@@ -24,13 +24,13 @@ public class Nuke : TrackedCell
                 break;
         }
         //Array index error prevention
-        if (this.position.x - offsetX < 0 || this.position.y - offsetY < 0)
+        if (this.position.x - 1 < 0 || this.position.y - 1 < 0)
             return false;
-        if (this.position.x - offsetX >= CellFunctions.gridWidth || this.position.y - offsetY >= CellFunctions.gridHeight)
+        if (this.position.x - 1 >= CellFunctions.gridWidth || this.position.y - 1 >= CellFunctions.gridHeight)
             return false;
-        if (this.position.x + offsetX < 0 || this.position.y + offsetY < 0)
+        if (this.position.x + 1 < 0 || this.position.y + 1 < 0)
             return false;
-        if (this.position.x + offsetX >= CellFunctions.gridWidth || this.position.y + offsetY >= CellFunctions.gridHeight)
+        if (this.position.x + 1 >= CellFunctions.gridWidth || this.position.y + 1 >= CellFunctions.gridHeight)
             return false;
         //If we don't have a refrence cell return
         /*if (CellFunctions.cellGrid[(int)this.position.x - offsetX, (int)this.position.y - offsetY] == null)
@@ -60,13 +60,13 @@ public class Nuke : TrackedCell
                 break;
         }
         //Array index error prevention
-        if (this.position.x - offsetX < 0 || this.position.y - offsetY < 0)
-            return;     
-        if (this.position.x - offsetX >= CellFunctions.gridWidth || this.position.y - offsetY >= CellFunctions.gridHeight)
+        if (this.position.x - 1 < 0 || this.position.y - 1 < 0)
             return;
-        if (this.position.x + offsetX < 0 || this.position.y + offsetY < 0)
+        if (this.position.x - 1 >= CellFunctions.gridWidth || this.position.y - 1 >= CellFunctions.gridHeight)
             return;
-        if (this.position.x + offsetX >= CellFunctions.gridWidth || this.position.y + offsetY >= CellFunctions.gridHeight)
+        if (this.position.x + 1 < 0 || this.position.y + 1 < 0)
+            return;
+        if (this.position.x + 1 >= CellFunctions.gridWidth || this.position.y + 1 >= CellFunctions.gridHeight)
             return;
 
         //If we don't have a refrence cell return
