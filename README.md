@@ -11,7 +11,7 @@ This Cell Copies Itself On All Four Sides (Uptated Version Doesnt)
 ### Flipper Cell
 Flips a Cell That Touches It 180
 
-Issues:
+###Issues:
 
 -Nuke Cell Destroys Itself
 
