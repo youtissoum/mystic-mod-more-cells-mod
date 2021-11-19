@@ -95,7 +95,7 @@ public class Nuke : TrackedCell
         Cell newCell2 = GridManager.instance.SpawnCell(
             CellType_e.NUKE,
             new Vector2((int)this.position.x - 1, (int)this.position.y - 0),
-            Direction_e.UP,
+            Direction_e.DOWN,
             true
             );
         newCell2.oldPosition = this.position;
@@ -103,7 +103,7 @@ public class Nuke : TrackedCell
         Cell newCell3 = GridManager.instance.SpawnCell(
             CellType_e.NUKE,
             new Vector2((int)this.position.x + 0, (int)this.position.y + 1),
-            Direction_e.UP,
+            Direction_e.LEFT,
             true
             );
         newCell3.oldPosition = this.position;
@@ -111,7 +111,7 @@ public class Nuke : TrackedCell
         Cell newCell4 = GridManager.instance.SpawnCell(
             CellType_e.NUKE,
             new Vector2((int)this.position.x - 0, (int)this.position.y - 1),
-            Direction_e.UP,
+            Direction_e.RIGHT,
             true
             );
         newCell4.oldPosition = this.position;
