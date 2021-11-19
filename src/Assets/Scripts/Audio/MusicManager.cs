@@ -14,7 +14,7 @@ public class MusicManager : MonoBehaviour
     void Start()
     {
 
-        if (debounce) 
+        if (debounce)
         {
             Destroy(gameObject);
             return;

@@ -54,7 +54,7 @@ public class Cell : MonoBehaviour
         if (CellFunctions.cellGrid[(int)position.x, (int)position.y] != null)
         {
             Cell other = CellFunctions.cellGrid[(int)position.x, (int)position.y];
-            other.Delete(true);
+            /*other.Delete(true);*/
         }
         this.position = position;
         this.spawnPosition = position;
